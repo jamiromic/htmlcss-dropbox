@@ -28,10 +28,15 @@ img{
     flex-grow: 1;
 }
 
+.container_back{
+    background-color: rgb(136, 200, 243);
+    display: flex;
+    justify-content: center;
+}
+
 .container_big{
     max-width: 1196px;
     display: flex;
-    border: 1px solid red;
 }
 
 .container_small{
@@ -51,7 +56,6 @@ img{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    border: 1px solid red;
     justify-content: center;
 }
 
@@ -66,17 +70,30 @@ img{
 }
 
 .title{
-    font-size: 50px;
+    max-width: 1196px;
+    font-size: 100px;
+    padding: 70px 30px;
+}
+
+.buttons_prova{
+    width: 60%;
+    padding: 10px;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    border: none;
 }
 
 .col1{
     width: 30%;
-    position: absolute;
-    top: 20px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .col2{
-    position: absolute;
     width: 70%;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
 }
