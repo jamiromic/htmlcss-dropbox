@@ -273,6 +273,10 @@ ul, ol, li{
     font-size: 50px;
 }
 
+.pubusers{
+    margin-bottom: 200px;
+}
+
 .title_users{
     padding-top: 180px;
     padding-left: 20px;
@@ -285,30 +289,96 @@ ul, ol, li{
 
 .link{
     padding-left: 20px;
-    padding-bottom: 150px;
+    padding-bottom: 300px;
     font-size: 21px;
     color: blue;
 }
 
-.pub4{
-    max-width: 2025,33px;
-    margin: 0 auto;
-    justify-content: center;
+.carousel{
     display: flex;
 }
 
-.card_4{
+.row_carousel{
+    display: flex;
+    max-width: 100%;
+}
+
+.col4{
+    aspect-ratio: 1/1;
     flex-basis: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
 
 
 }
 
 .card_1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    aspect-ratio: 1/1;
     flex-basis: calc(100% / 3);
+    font-size: 25px;
 
 }
 
-.card_4 img{
-    max-width: 25%;
+
+.imglogo{
+    padding: 25px;
+    filter: invert(1);
+}
+
+.logocar{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tryfree{
+    display: flex;
+}
+
+.tryfree_title{
+    flex-basis: 60%;
+    font-size: 30px;
+    max width: 150px;
+}
+
+.tryfree_buttons{
+    flex-basis: 40%;
+}
+
+.logo1{
+    background-color: green;
+}
+
+.logo2{
+    background-color: brown;
+}
+
+.logo3{
+    background-color: cornflowerblue;
+}
+
+.logo4{
+    background-color: red;
+}
+
+.logo5{
+    background-color: crimson;
+}
+
+.logo6{
+    background-color: lightblue;
+}
+
+.logo7{
     background-color: blue;
+}
+
+.logo8{
+    background-color: gold;
 }
