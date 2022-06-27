@@ -114,7 +114,7 @@ ul, ol, li{
 .col3{
     display: flex;
     flex-direction: column;
-    max-width: calc(100% /3);
+    flex-basis: calc(100% / 3);
     border: 1px solid grey;
 }
 
@@ -131,7 +131,7 @@ ul, ol, li{
     font-size: 40px;
 }
 
-.fa-user{
+.fa-solid{
     align-self: center;
 }
 
@@ -161,4 +161,154 @@ ul, ol, li{
 
 .box_contain1{
     padding: 30px;
+}
+
+.col4{
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 1) ;
+    border: 1px solid grey;
+}
+
+.row_2{
+    display: flex;
+}
+
+
+.buttons_blu_flex{
+    align-self: flex-end;
+    background-color: rgb(0, 81, 255);
+    padding: 8px 15px;
+    color: white;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+
+.box_body4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.title_body4{
+    padding-bottom: 40px;
+}
+
+.body_price{
+    font-weight: bold;
+}
+
+.body_date{
+    color: grey;
+}
+
+.pub2{
+    display: flex;
+
+}
+
+.img2{
+    flex-basis: 60%;
+}
+
+.text2{
+    padding: 50px;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.title_pub2{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.text_pub2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.buttons2{
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 12px 15px;
+    margin-left: 0px;
+}
+
+.pub3_row{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 3);
+    padding: 20px;
+}
+
+.card_title{
+    font-size: 28px;
+    padding-bottom: 30px;
+
+}
+
+.card_text{
+
+    font-size: 20px;
+
+}
+
+.pub3_title{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.title_users{
+    padding-top: 180px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    font-size: 42px;
+    width: 600px;
+    line-height: 1.3em;
+    
+}
+
+.link{
+    padding-left: 20px;
+    padding-bottom: 150px;
+    font-size: 21px;
+    color: blue;
+}
+
+.pub4{
+    max-width: 2025,33px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.card_4{
+    flex-basis: calc(100% / 3);
+
+
+}
+
+.card_1{
+    flex-basis: calc(100% / 3);
+
+}
+
+.card_4 img{
+    max-width: 25%;
+    background-color: blue;
 }
