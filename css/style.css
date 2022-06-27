@@ -313,15 +313,21 @@ ul, ol, li{
 }
 
 .card_1{
+    background-color: rgb(227, 227, 227);
     display: flex;
     flex-direction: column;
     gap: 50px;
     aspect-ratio: 1/1;
     flex-basis: calc(100% / 3);
     font-size: 25px;
+    padding: 50px;
 
 }
 
+
+.card_1text{
+    padding-bottom: 60px;
+}
 
 .imglogo{
     padding: 25px;
@@ -342,14 +348,10 @@ ul, ol, li{
 }
 
 .tryfree_title{
-    flex-basis: 60%;
     font-size: 30px;
     max width: 150px;
 }
 
-.tryfree_buttons{
-    flex-basis: 40%;
-}
 
 .logo1{
     background-color: green;
@@ -381,4 +383,77 @@ ul, ol, li{
 
 .logo8{
     background-color: gold;
+}
+
+.linegrey{
+    color: grey;
+    width: 120px;
+    margin-top: 50px;
+}
+
+.tryfree{
+    background-color: rgb(137, 177, 250);
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.buttons3{
+
+    padding: 8px 5px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    
+}
+
+.titlebox{
+    color: rgb(149, 27, 27);
+}
+
+.faqlist{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.titlelist{
+
+    font-size: 40px;
+    padding-bottom: 100px;
+    
+}
+
+.listbody{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    line-height: 4em;
+    border-top: 1px solid grey;
+}
+
+.borderbottom{
+    border-bottom: 1px solid grey;
+}
+
+
+.footerlistcol{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex-basis: 20%;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+}
+
+.footerlist_row{
+    display: flex;
+    justify-content: center;
 }
