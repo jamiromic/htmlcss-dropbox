@@ -31,6 +31,10 @@ ul, ol, li{
     flex-grow: 1;
 }
 
+.item2{
+    align-items: center;
+}
+
 .container_back{
     background-color: rgb(136, 200, 243);
     display: flex;
@@ -100,12 +104,18 @@ ul, ol, li{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    font-size: 20px;
 }
 
 .col2{
     width: 70%;
+    position: relative;
 }
 
+.main_img{
+    position: absolute;
+    top: 0;
+}
 .options_row{
     display: flex;
     gap: 40px;
@@ -125,10 +135,12 @@ ul, ol, li{
 
 .options{
     line-height: 2;
+    margin-top: 150px;
 }
 
-.fa-arrow-down{
+#arrowsdown{
     font-size: 40px;
+    align-self: flex-start;
 }
 
 .fa-solid{
@@ -167,6 +179,7 @@ ul, ol, li{
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
+    border: 1px solid black;
     
 }
 
@@ -211,6 +224,7 @@ ul, ol, li{
 
 .pub2{
     display: flex;
+    margin-top: 150px;
 
 }
 
@@ -452,9 +466,12 @@ ul, ol, li{
 footer{
     display: flex;
     background-color: black;
+    justify-content: center;
 }
 
 .footerlist_row{
     display: flex;
     justify-content: center;
+    gap: 100px
+    ;
 }
