@@ -59,6 +59,14 @@ ul, ol, li{
     display: inline-block
 }
 
+.professional {
+    margin-top: 2rem;
+}
+
+.enterprise {
+    margin-top: 4rem;
+}
+
 .hero{
     display: flex;
     flex-direction: column;
@@ -440,6 +448,7 @@ ul, ol, li{
 
     font-size: 40px;
     padding-bottom: 100px;
+    border-bottom: 1px solid grey;
     
 }
 
@@ -449,7 +458,7 @@ ul, ol, li{
     display: flex;
     justify-content: space-between;
     line-height: 4em;
-    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .borderbottom{
@@ -459,8 +468,8 @@ ul, ol, li{
 
 .footerlistcol{
     display: flex;
-    color: white;
-    flex-basis: 20%;
+    flex-direction: column;
+    color: whitesmoke;
 }
 
 footer{
@@ -472,6 +481,37 @@ footer{
 .footerlist_row{
     display: flex;
     justify-content: center;
-    gap: 100px
-    ;
+    gap: 120px;
+    padding-top: 100px;
+    
+}
+
+.listtitle{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.bodylist{
+    line-height: 2em;
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlist{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 10px;
+    color: grey;
+    border-top: 1px solid whitesmoke;
+    max-width: 120px;
+}
+
+.withfooter{
+    padding-bottom: 100px;
 }
